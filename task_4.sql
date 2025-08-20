@@ -38,5 +38,5 @@ CREATE TABLE Order_Details(
 	quantity DOUBLE
 );
 
-SELECT book_id, title, author_id, price, publication_date
+SELECT *
 FROM Books;
