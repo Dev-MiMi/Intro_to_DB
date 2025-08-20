@@ -38,14 +38,5 @@ CREATE TABLE Order_Details(
 	quantity DOUBLE
 );
 
-
-SELECT *
-FROM Authors;
-
-SELECT *                                         FROM Books;                                      
-SELECT *                                         FROM Customers;
-
-SELECT *
-FROM Orders;
-                                                 SELECT *
-FROM Order_Details;
+SELECT book_id, title, author_id, price, publication_date
+FROM Books;
